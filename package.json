@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": false,
   "description": "A conversion of the Vibrant Ink theme from tmTheme to Atom",
-  "repository": "https://github.com/cherring/vibrant-ink",
+  "repository": "git@github.com:cherring/atom-vibrant-ink.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
