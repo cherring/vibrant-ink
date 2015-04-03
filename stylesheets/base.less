@@ -16,7 +16,7 @@ atom-text-editor.is-focused .cursor {
 }
 
 .selection .region {
-  background-color: #2e4034;
+  background-color: #CCCC33;
 }
 
 atom-text-editor.is_focused .line-number.cursor-line-selection, atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
@@ -76,9 +76,14 @@ atom-text-editor.is_focused .line-number.cursor-line-selection, atom-text-editor
   color: #AAAAAA;
 }
 
-.string.interpolated {
+.string.interpolated:not(.quoted) {
   color: #000000;
   background-color: #CCCC33;
+}
+
+.string .source {
+  color: #FFFFFF;
+  background-color: #000000;
 }
 
 .string.regexp {
