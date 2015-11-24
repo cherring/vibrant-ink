@@ -1,4 +1,4 @@
-.editor-colors {
+atom-text-editor {
   background-color: #000000;
   color: #FFFFFF;
 }
@@ -7,7 +7,7 @@
   opacity: 0.2;
 }
 
-.editor.is-focused .cursor {
+atom-text-editor.is-focused .cursor {
   border-color: #FFFFFF;
 }
 
@@ -16,10 +16,10 @@
 }
 
 .selection .region {
-  background-color: #2e4034;
+  background-color: #CCCC33;
 }
 
-.editor.is_focused .line-number.cursor-line-selection, .editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+atom-text-editor.is_focused .line-number.cursor-line-selection, atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
   background-color: #17201a;
 }
 
@@ -74,6 +74,16 @@
 
 .string .constant.character.escape {
   color: #AAAAAA;
+}
+
+.string.interpolated:not(.quoted) {
+  color: #000000;
+  background-color: #CCCC33;
+}
+
+.string .source {
+  color: #FFFFFF;
+  background-color: #000000;
 }
 
 .string.regexp {
