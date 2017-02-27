@@ -7,6 +7,8 @@ This is a conversion of the Vibrant Ink theme to work with the Atom editor.
 ## Installation
 
 ```
-cd ~/atom/packages
-git clone https://github.com/cherring/vibrant-ink.git
+Open the Package search with Cmd+Shift+P
+Go to Install Packages and Themes
+Select Themes on the settings page and search for Vibrant Ink
+Click Install
 ```
