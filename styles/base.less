@@ -1,6 +1,10 @@
 atom-text-editor {
   background-color: #000000;
   color: #FFFFFF;
+
+  .selection .region {
+    background-color: darken(#17201a, 10%);
+  }
 }
 
 .indent-guide, .invisible-character {
@@ -15,11 +19,9 @@ atom-text-editor.is-focused .cursor {
   color: #FFFFFF;
 }
 
-.selection .region {
-  background-color: #ffffcc;
-}
-
-atom-text-editor.is_focused .line-number.cursor-line-selection, atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line {
+atom-text-editor.is_focused .line-number.cursor-line-selection,
+atom-text-editor.is-focused .line-number.cursor-line-no-selection,
+atom-text-editor.is-focused .line.cursor-line {
   background-color: #17201a;
 }
 
